@@ -1,0 +1,59 @@
+.layui-footer{
+    text-align: center;
+    font-size: 12px;
+}  
+
+.layui-icon {
+    /* 让图标跟字体拉开距离 */
+    margin-right: 8px;
+    /* 让图标跟文字一起往右边再缩进一些 */
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.layui-body{
+    overflow: hidden;
+}
+/* 25.解决3个小问题
+1.iframe一进来就显示，通过src属性添加home里面的链接
+2.首页默认选中 添加类layui-this
+3.阻止a链接的默认c3动画
+*/
+a {
+    transition: none !important;
+}
+.userinfo{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    /* 不让文本被选中 */
+    user-select: none;
+}
+
+/* 给userinfo这个div盒子加一个底边框 */
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #009688;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+
+}

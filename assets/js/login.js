@@ -75,6 +75,7 @@ $(function () {
                     return layer.msg('登录失败！')
                 }
                 layer.msg('登录成功！')
+                
                 //!!由于之后请求接口有身份认证要求，所以需要将登录成功得到的token字符串保存到localStorage中
                 localStorage.setItem('token',res.token)
                  //!!跳转到后台主页用location.herf='/index.html'
